@@ -340,10 +340,10 @@
 
   <!-- Resources -->
   <h2>Formulario en Angular</h2>
-  <h2>Con bootstrap 4 y Sweetaler2</h2>
+  <h3>Con bootstrap 4 y Sweetaler2</h3>
   <br>
 
-  <form>
+  <!-- <form>
     <div class="form-group">
       <label for="exampleInputEmail1">Nombre Completo</label>
       <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
@@ -353,7 +353,25 @@
       <input type="password" class="form-control" id="password">
     </div>
     <button type="button" (click)="botonModal();" class="btn btn-primary">Guardar</button>
-  </form>
+  </form> -->
+  <div style="display: flex; flex-direction: row; justify-content: space-between;">
+    <div style="width: 50%; margin: 20px;">
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Nombre Completo</label>
+          <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Contrase&ntilde;a</label>
+          <input type="password" class="form-control" id="password">
+        </div>
+        <button type="button" (click)="botonModal();" class="btn btn-primary">Guardar</button>
+      </form>
+    </div>
+    <div style="width: 50%; margin: 20px;">
+      <img src="../assets/images/loginImage.jpg">
+    </div>
+  </div>
 
 
   <!-- Links -->
