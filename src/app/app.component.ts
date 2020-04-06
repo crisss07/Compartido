@@ -12,7 +12,7 @@ export class AppComponent {
   botonModal(){
     Swal.fire(
       '¡Buen trabajo!',
-      '¡Rellenaste el formulario con exito!',
+      '¡Registrado Correctamente!',
       'success'
     )
   }
